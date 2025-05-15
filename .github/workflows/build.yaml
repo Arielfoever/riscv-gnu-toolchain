@@ -73,6 +73,7 @@ jobs:
             compiler: llvm
           - mode: uclibc
             compiler: llvm
+      fail-fast: false
     steps:
       - uses: actions/checkout@v4
 
